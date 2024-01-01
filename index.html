@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeWare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="imgcontainer">
+        <img src="primewarelogo.png" alt="logo" class="logo">
+        <img src="signupimg.png" alt="signupimmage">
+        <h3>Sign up today to get exciting offers..!</h3>
+    </div>
+    <div class="formcontainer">
+     
+        <form action="">
+            <h1>Get Started</h1>
+            <p class="info">inputs with the * sign are required</p>
+            <div class="rowinput">
+                <div class="columninput">
+                    <label for="firstname">FirstName*</label> 
+                    <input type="text" id="firstname" name="firstname" placeholder="  first name" required>
+                </div>
+                
+                <div class="columninput">
+                    <label for="lastname">LastName*</label> 
+                    <input type="text" id="lastname" name="lastname" placeholder="  last name" required>
+                </div>
+            </div>
+
+
+            <div class="rowinput">
+                <div class="columninput">
+                    <label for="email">Email*</label> 
+                    <input type="email" id="email" name="email" placeholder="  example@gmail.com" required>
+                </div>
+                
+                <div class="columninput">
+                    <label for="phone">Phone</label> 
+                    <input type="number" id="phone" name="phonenumber" placeholder="  XXX XXX XXX"  max="9999999999">
+                </div>
+
+            </div>
+
+            <div class="rowinput">
+                <div class="columninput">
+                    <label for="password">Password*</label> 
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <div class="columninput">
+                    <label for="confirmpassword">Confirm Password*</label> 
+                    <input type="password" id="confirmpassword" name="confirmpassword" required>
+                </div>
+
+            </div>
+
+            <div class="submitdiv">
+                <button type="submit">Create Account</button>
+                <p>Already have an account..? <span>LOG IN</span></p>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

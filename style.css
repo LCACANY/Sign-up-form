@@ -1,0 +1,121 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imgcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 45vw;
+}
+.logo{
+    align-self: flex-start;
+    max-width: 220px;
+    padding: .6em;
+}
+img{
+    width: calc(90%);
+    
+}
+.formcontainer{
+    width: 55vw;
+    background-color: rgb(155, 155, 155);
+    padding: 100px;
+    border-top-left-radius: 18px;
+}
+h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+h1{
+    margin: 0;
+}
+
+label{
+    font-size: larger;
+    font-weight: bold;
+}
+input{
+    background-color: rgb(185, 181, 181);
+    border: solid 0.2em black;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+}
+
+input::placeholder{
+    color: white;
+}
+.info{
+    font-size: large;
+    font-family: monospace;
+    color: white;
+}
+.columninput{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 5px;
+    
+}
+
+
+.rowinput{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 30px;
+    width: 80%;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+button{
+    background-color: rgb(218, 76, 50);
+    border: 0;
+    color: white;
+    padding: 25px 40px;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.submitdiv{
+    margin-top: 50px;
+}
+
+.submitdiv>p,
+.submitdiv>p>span{
+    font-size: 20px;
+}
+
+.submitdiv>p>span{
+    color: rgb(218, 76, 50);
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(240, 111, 72);
+}
+span:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(218, 76, 50);;
+}
+input:focus:valid{
+    border: solid 0.2em rgb(70, 209, 70);
+    box-shadow: 0 0 5px rgb(70, 209, 70);
+}
+
+input:focus:invalid{
+    border: solid 0.2em red;
+    box-shadow: 0 0 5px red;
+}
+
