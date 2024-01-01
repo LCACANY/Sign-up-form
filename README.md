@@ -1,2 +1,2 @@
 # Sign-up-form
-A  beautiful sign up form create with only html and css 
+A  beautiful sign up form created with only html and css 
