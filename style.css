@@ -14,6 +14,7 @@ body{
     align-items: center;
     position: relative;
     width: 45vw;
+    height:100vh;
 }
 .logo{
     align-self: flex-start;
@@ -29,6 +30,7 @@ img{
     background-color: rgb(155, 155, 155);
     padding: 100px;
     border-top-left-radius: 18px;
+    height:100vh;
 }
 h3{
     text-align: center;
